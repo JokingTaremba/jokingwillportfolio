@@ -1,5 +1,5 @@
 import { CirclePlus, CircleUser, Folder, Home, Mail } from "lucide-react";
-import HireMe from "./hireMe";
+import Button from "./button";
 
 export default function Navbar() {
   return (
@@ -27,7 +27,14 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <HireMe />
+        <Button
+          text="Hire Me"
+          Icon={CirclePlus}
+          iconSize={20}
+          iconColor="white"
+          className="bg-[#1e293b] p-2 rounded-lg"
+          href="#hireme"
+        />
       </div>
     </header>
   );

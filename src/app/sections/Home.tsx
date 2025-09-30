@@ -1,11 +1,10 @@
-import CopyEmail from "@/components/copyEmail";
-import HireMe from "@/components/hireMe";
-import { Dot } from "lucide-react";
+import { CirclePlus, Copy, Dot } from "lucide-react";
 import Image from "next/image";
+import Button from "@/components/button";
 
 export default function Home() {
   return (
-    <section id="home" className="min-h-screen">
+    <section id="home" className=" min-h-screen pt-6">
       <div className="max-w-2xl mx-auto px-4">
         <div className="text-white flex justify-between items-center mb-10">
           <span className="flex items-center justify-center text-lg font-semibold">
@@ -29,8 +28,22 @@ export default function Home() {
               concepts into real and relevant applications.
             </p>
             <div className="flex justify-center md:justify-start gap-4">
-              <HireMe />
-              <CopyEmail />
+              <Button
+                text="Hire Me"
+                Icon={CirclePlus}
+                iconSize={20}
+                iconColor="white"
+                className="bg-[#334155] p-2 px-3 rounded-lg"
+                href="#hireme"
+              />
+              <Button
+                text="Copy Email"
+                Icon={Copy}
+                iconSize={20}
+                iconColor="white"
+                className="bg-[#334155] p-2 px-3 rounded-lg"
+                href="#copyemail"
+              />
             </div>
           </div>
 
