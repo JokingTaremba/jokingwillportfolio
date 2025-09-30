@@ -1,38 +1,33 @@
-import { CirclePlus, CircleUser, Folder, Home, Mail, User } from "lucide-react";
+import { CirclePlus, CircleUser, Folder, Home, Mail } from "lucide-react";
+import HireMe from "./hireMe";
 
 export default function Navbar() {
   return (
     <header className="m-4">
-      <div className="bg-white rounded-lg max-w-3xl mx-auto flex items-center justify-between p-4 ">
+      <div className="bg-white rounded-lg max-w-2xl mx-auto flex items-center justify-between p-2 ">
         <ul className="flex gap-6 items-center">
           <li>
             <a href="#home">
-              <Home size={24} />
+              <Home size={29} />
             </a>
           </li>
           <li>
             <a href="#about">
-              <CircleUser size={24} />
+              <CircleUser size={29} />
             </a>
           </li>
           <li>
             <a href="#projects">
-              <Folder size={24} />
+              <Folder size={29} />
             </a>
           </li>
           <li>
             <a href="#contact">
-              <Mail size={24} />
+              <Mail size={29} />
             </a>
           </li>
         </ul>
-        <a
-          className="flex items-center gap-2 bg-[#1e293b] p-2 rounded-lg"
-          href="#hireme"
-        >
-          <CirclePlus size={15} color="white" />
-          <h1 className="text-white">Hire Me</h1>
-        </a>
+        <HireMe />
       </div>
     </header>
   );
