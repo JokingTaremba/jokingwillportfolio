@@ -7,6 +7,7 @@ interface ButtonWithIconProps {
   iconSize?: number;
   iconColor?: string;
   className?: string;
+  iconPosition?: "left" | "right";
 }
 
 export default function Button({
@@ -16,11 +17,13 @@ export default function Button({
   iconSize = 15,
   iconColor = "white",
   className = "bg-[#334155] p-2 rounded-lg",
+  iconPosition = "left",
 }: ButtonWithIconProps) {
   return (
     <a href={href} className={`flex items-center gap-2 ${className}`}>
-      <Icon size={iconSize} color={iconColor} />
+      {iconPosition === "left" && <Icon size={iconSize} color={iconColor} />}
       <span className="text-white">{text}</span>
+      {iconPosition === "right" && <Icon size={iconSize} color={iconColor} />}
     </a>
   );
 }
