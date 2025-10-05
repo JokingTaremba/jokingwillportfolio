@@ -23,7 +23,7 @@ const socialLinks = [
   },
 ];
 
-export default function SocialMidia() {
+export default function SocialMedia() {
   return (
     <section id="projects" className="bg-[#334155] mt-10 rounded-lg p-4">
       <div className="text-white flex justify-between items-center">
