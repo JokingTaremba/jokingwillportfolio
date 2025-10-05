@@ -22,7 +22,7 @@ export default function Button({
   return (
     <a href={href} className={`flex items-center gap-2 ${className}`}>
       {iconPosition === "left" && <Icon size={iconSize} color={iconColor} />}
-      <span className="text-white">{text}</span>
+      <span className="text-white font-semibold">{text}</span>
       {iconPosition === "right" && <Icon size={iconSize} color={iconColor} />}
     </a>
   );
