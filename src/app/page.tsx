@@ -1,6 +1,7 @@
 import HireMe from "./sections/hireme";
 import Home from "./sections/Home";
 import Projects from "./sections/project";
+import SocialMidia from "./sections/socialmidia";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Home />
       <Projects />
       <HireMe />
+      <SocialMidia />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function Projects() {
       id: 1,
       title: "Solvicity",
       description:
-        "Aplicação móvel que permite aos cidadãos da Beira reportar problemas em infraestruturas urbanas com fotos, descrição e localização em mapa interativo.",
+        "A mobile application that allows Beira residents to report problems with urban infrastructure, including photos, descriptions, and locations on an interactive map.",
       image: "/images/profile.jpeg",
       stack: [
         "Spring boot",
