@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section id="home" className="pt-6 px-4">
       <div className="text-white flex justify-between items-center mb-10">
-        <span className="flex items-center justify-center text-lg font-semibold">
+        <span className="flex items-center justify-center text-xl font-semibold">
           <Dot size={30} />
           Software Developer
         </span>
