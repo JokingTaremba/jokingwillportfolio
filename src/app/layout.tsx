@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pt">
       <body className="bg-[#0f172a]">
         <Navbar />
-        <main className="">{children}</main>
+        <main className="pt-24">{children}</main>
       </body>
     </html>
   );

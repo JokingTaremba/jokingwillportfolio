@@ -11,21 +11,11 @@ const socialLinks = [
     href: "https://github.com/",
     icon: <Github size={19} color="white" />,
   },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/",
-    icon: <Twitter size={19} color="white" />,
-  },
-  {
-    name: "Instagram",
-    href: "https://instagram.com/",
-    icon: <Instagram size={19} color="white" />,
-  },
 ];
 
 export default function SocialMedia() {
   return (
-    <section id="projects" className="bg-[#334155] mt-10 rounded-lg p-4">
+    <section id="socialmedia" className="bg-[#334155] mt-10 rounded-lg p-4">
       <div className="text-white flex justify-between items-center">
         <span className="flex items-center justify-center text-xl font-semibold">
           <Dot size={30} />

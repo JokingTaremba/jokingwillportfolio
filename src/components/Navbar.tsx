@@ -3,8 +3,8 @@ import Button from "./button";
 
 export default function Navbar() {
   return (
-    <header className="m-4">
-      <div className="bg-white rounded-lg max-w-2xl mx-auto flex items-center justify-between p-2 ">
+    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md">
+      <div className="max-w-2xl mx-auto flex items-center justify-between p-2 m-4 rounded-lg bg-white shadow-lg">
         <ul className="flex gap-6 items-center">
           <li>
             <a href="#home">
