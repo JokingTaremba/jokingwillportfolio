@@ -36,7 +36,7 @@ export default function Home() {
               href="#hireme"
             />
             <Button
-              text="Copy Email"
+              text="Email"
               Icon={Copy}
               iconSize={15}
               iconColor="white"

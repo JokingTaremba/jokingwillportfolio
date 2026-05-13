@@ -20,7 +20,7 @@ export default function Button({
   iconPosition = "left",
 }: ButtonWithIconProps) {
   return (
-    <a href={href} className={`flex items-center gap-2 ${className}`}>
+    <a href={href} className={`flex items-center gap-1 ${className}`}>
       {iconPosition === "left" && <Icon size={iconSize} color={iconColor} />}
       <span className="text-white font-semibold">{text}</span>
       {iconPosition === "right" && <Icon size={iconSize} color={iconColor} />}

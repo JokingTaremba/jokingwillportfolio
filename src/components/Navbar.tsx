@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md">
       <div className="max-w-2xl mx-auto flex items-center justify-between p-2 m-4 rounded-lg bg-white shadow-lg">
-        <ul className="flex gap-6 items-center">
+        <ul className="flex gap-3 items-center">
           <li>
             <a href="#home">
               <Home size={25} />
@@ -19,11 +19,6 @@ export default function Navbar() {
           <li>
             <a href="#projects">
               <Folder size={25} />
-            </a>
-          </li>
-          <li>
-            <a href="#contact">
-              <Mail size={25} />
             </a>
           </li>
         </ul>
