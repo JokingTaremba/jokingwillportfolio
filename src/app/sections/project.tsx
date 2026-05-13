@@ -10,7 +10,6 @@ export default function Projects() {
       title: "Solvicity",
       description:
         "A mobile application that allows Beira residents to report problems with urban infrastructure, including photos, descriptions, and locations on an interactive map.",
-      image: "/images/profile.jpeg",
       stack: [
         "Spring boot",
         "Jetpack Compose",
@@ -26,7 +25,6 @@ export default function Projects() {
       title: "2iBi-mobile-developer-chalenge",
       description:
         "Mobile application that allows you to view detailed property information from different countries in a user-friendly way.",
-      image: "/images/profile.jpeg",
       stack: [
         "Spring boot",
         "Jetpack Compose",
@@ -64,14 +62,6 @@ export default function Projects() {
             className="bg-[#1e293b] p-4 rounded-xl hover:shadow-lg transition"
           >
             <div className="flex flex-col sm:flex-row gap-4">
-              <Image
-                src="/images/profile.jpeg"
-                alt="Minha foto"
-                width={200}
-                height={150}
-                className="rounded-lg object-cover"
-              />
-
               <div className="flex flex-col justify-between text-white">
                 <div className="flex items-center gap-4 mb-4">
                   <h3 className="text-2xl font-semibold">{project.title}</h3>

@@ -8,31 +8,31 @@ export default function Navbar() {
         <ul className="flex gap-6 items-center">
           <li>
             <a href="#home">
-              <Home size={29} />
+              <Home size={25} />
             </a>
           </li>
           <li>
             <a href="#about">
-              <CircleUser size={29} />
+              <CircleUser size={25} />
             </a>
           </li>
           <li>
             <a href="#projects">
-              <Folder size={29} />
+              <Folder size={25} />
             </a>
           </li>
           <li>
             <a href="#contact">
-              <Mail size={29} />
+              <Mail size={25} />
             </a>
           </li>
         </ul>
         <Button
           text="Hire Me"
           Icon={CirclePlus}
-          iconSize={20}
+          iconSize={15}
           iconColor="white"
-          className="bg-[#1e293b] p-2 rounded-lg"
+          className="bg-[#1e293b] p-1.5 rounded-lg"
           href="#hireme"
         />
       </div>

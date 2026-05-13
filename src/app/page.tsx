@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <div className="bg-[#1e293b] max-w-2xl rounded-lg mx-auto px-4 mb-8 pb-2">
       <Home />
-      <Projects />
-      <HireMe />
+      {/* <Projects /> */}
+      {/* <HireMe /> */}
       <SocialMedia />
       <Footer />
     </div>

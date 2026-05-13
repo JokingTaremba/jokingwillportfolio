@@ -1,4 +1,4 @@
-import { CirclePlus, Copy, Dot } from "lucide-react";
+import { CirclePlus, Copy, Dot, FileText } from "lucide-react";
 import Image from "next/image";
 import Button from "@/components/button";
 
@@ -11,7 +11,7 @@ export default function Home() {
           Software Developer
         </span>
         <a
-          className="text-green-300 flex items-center justify-center bg-green-500/20 pr-4 rounded-3xl hover:bg-green-500/28 transition"
+          className="text-green-300 flex items-center text-sm justify-center bg-green-500/20 pr-3 rounded-3xl hover:bg-green-500/28 transition"
           href="#avalibleforwork"
         >
           <Dot size={30} color="green" />
@@ -28,9 +28,9 @@ export default function Home() {
           </p>
           <div className="flex justify-center md:justify-start gap-4">
             <Button
-              text="Hire Me"
-              Icon={CirclePlus}
-              iconSize={20}
+              text="Resume"
+              Icon={FileText}
+              iconSize={15}
               iconColor="white"
               className="bg-[#334155] p-2 px-3 rounded-lg"
               href="#hireme"
@@ -38,7 +38,7 @@ export default function Home() {
             <Button
               text="Copy Email"
               Icon={Copy}
-              iconSize={20}
+              iconSize={15}
               iconColor="white"
               className="bg-[#334155] p-2 px-3 rounded-lg"
               href="#copyemail"
